@@ -1,0 +1,14 @@
+node_modules
+dist
+dist-ssr
+.env
+.env.local
+.env.*.local
+*.local
+.DS_Store
+Thumbs.db
+coverage
+playwright-report
+test-results
+.vscode/*
+!.vscode/extensions.json
