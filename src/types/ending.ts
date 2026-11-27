@@ -9,6 +9,8 @@ export interface EndingConditions {
   minCollectedEvidence?: number;
   requiredFlags?: string[];
   maxRepairEvents?: number;
+  minVerifiedHypotheses?: number;
+  minContradictions?: number;
 }
 
 export interface EndingConfig {

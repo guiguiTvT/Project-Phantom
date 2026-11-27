@@ -10,5 +10,7 @@ Thumbs.db
 coverage
 playwright-report
 test-results
+vibe_images/
+.edge-profile/
 .vscode/*
 !.vscode/extensions.json

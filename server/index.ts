@@ -1,6 +1,7 @@
 import 'dotenv/config';
 import cors from 'cors';
 import express from 'express';
+import { createDialogueRouter } from './routes/dialogue';
 import { createStatusRouter } from './routes/status';
 
 const app = express();
@@ -10,6 +11,7 @@ app.use(cors());
 app.use(express.json({ limit: '64kb' }));
 
 app.use('/api', createStatusRouter());
+app.use('/api', createDialogueRouter());
 
 app.use((_req, res) => {
   res.status(404).json({ ok: false, error: 'not_found' });

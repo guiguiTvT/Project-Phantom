@@ -4,15 +4,20 @@
 
 :root {
   color-scheme: dark;
-  --bg: #0b1018;
+  --bg: #121a24;
   --surface: #131c29;
   --surface-2: #0f1722;
   --line: #29394d;
-  --primary: #52d6d0;
+  --primary: #7c9b95;
   --secondary: #8a9cb5;
   --warning: #e8b46a;
   --danger: #e76b78;
-  --ink: #e8edf5;
+  --ink: #f5f1e8;
+  --vn-paper: #f5f1e8;
+  --vn-ink: #263344;
+  --vn-sage: #7c9b95;
+  --vn-amber: #d5a478;
+  --vn-alert: #ad6267;
 }
 
 html,
@@ -26,8 +31,8 @@ body {
   background-color: var(--bg);
   color: var(--ink);
   background-image:
-    radial-gradient(1000px 600px at 12% -8%, rgba(82, 214, 208, 0.07), transparent 62%),
-    radial-gradient(900px 700px at 92% 110%, rgba(78, 118, 176, 0.09), transparent 60%);
+    radial-gradient(1200px 700px at 50% -10%, rgba(124, 155, 149, 0.10), transparent 62%),
+    radial-gradient(900px 600px at 88% 108%, rgba(213, 164, 120, 0.07), transparent 60%);
   -webkit-font-smoothing: antialiased;
   text-rendering: optimizeLegibility;
   overflow-x: hidden;
@@ -39,11 +44,10 @@ body::before {
   inset: 0;
   z-index: 0;
   pointer-events: none;
-  background-image:
-    linear-gradient(rgba(138, 156, 181, 0.022) 1px, transparent 1px),
-    linear-gradient(90deg, rgba(138, 156, 181, 0.022) 1px, transparent 1px);
-  background-size: 88px 88px;
-  mask-image: radial-gradient(circle at 50% 36%, rgba(0, 0, 0, 0.8), transparent 76%);
+  opacity: 0.5;
+  background-image: radial-gradient(rgba(245, 241, 232, 0.055) 1px, transparent 1px);
+  background-size: 4px 4px;
+  mask-image: radial-gradient(circle at 50% 40%, rgba(0, 0, 0, 0.9), transparent 78%);
 }
 
 body::after {
@@ -52,9 +56,7 @@ body::after {
   inset: 0;
   z-index: 0;
   pointer-events: none;
-  background:
-    radial-gradient(ellipse at 50% 120%, rgba(82, 214, 208, 0.05), transparent 55%),
-    linear-gradient(180deg, rgba(11, 16, 24, 0.05), rgba(11, 16, 24, 0.35));
+  background: radial-gradient(ellipse at 50% 118%, rgba(213, 164, 120, 0.06), transparent 55%);
 }
 
 #root {
@@ -63,8 +65,8 @@ body::after {
 }
 
 ::selection {
-  background: rgba(82, 214, 208, 0.28);
-  color: #f4ffff;
+  background: rgba(213, 164, 120, 0.35);
+  color: #1b2531;
 }
 
 ::-webkit-scrollbar {
@@ -75,19 +77,19 @@ body::after {
   background: transparent;
 }
 ::-webkit-scrollbar-thumb {
-  background: #223144;
+  background: #33404e;
   border: 2px solid transparent;
   background-clip: padding-box;
 }
 ::-webkit-scrollbar-thumb:hover {
-  background: #324962;
+  background: #46566a;
   border: 2px solid transparent;
   background-clip: padding-box;
 }
 
 :focus-visible {
-  outline: 1px solid rgba(82, 214, 208, 0.75);
-  outline-offset: 2px;
+  outline: 2px solid rgba(213, 164, 120, 0.85);
+  outline-offset: 3px;
 }
 
 input,
@@ -307,6 +309,64 @@ textarea {
   margin-left: 4px;
   background: var(--primary);
   animation: caret-blink 1.05s steps(1) infinite;
+}
+
+.vn-grain {
+  background-image: radial-gradient(rgba(255, 255, 255, 0.05) 0.5px, transparent 0.5px);
+  background-size: 3px 3px;
+  mix-blend-mode: soft-light;
+}
+
+/* 场景画框：随视口高度放大，16:9 舞台尽量铺满窗口，与全屏封面衔接 */
+.vn-frame {
+  width: 100%;
+  max-width: 1560px;
+  margin-inline: auto;
+}
+
+@media (min-width: 640px) {
+  .vn-frame {
+    max-width: min(1560px, calc((100svh - 7.5rem) * 16 / 9));
+  }
+}
+
+@keyframes vn-impact {
+  0% { transform: translate3d(0, 0, 0) rotate(0deg); }
+  12% { transform: translate3d(-9px, 4px, 0) rotate(-0.5deg); }
+  26% { transform: translate3d(8px, -5px, 0) rotate(0.4deg); }
+  42% { transform: translate3d(-6px, 3px, 0) rotate(-0.3deg); }
+  60% { transform: translate3d(4px, -2px, 0) rotate(0.2deg); }
+  100% { transform: translate3d(0, 0, 0) rotate(0deg); }
+}
+
+.vn-impact {
+  animation: vn-impact 0.55s cubic-bezier(0.36, 0.07, 0.19, 0.97) both;
+}
+
+@keyframes vn-push {
+  0% { transform: scale(1); filter: saturate(1); }
+  100% { transform: scale(1.035); filter: saturate(1.08) contrast(1.05); }
+}
+
+.vn-push {
+  animation: vn-push 1.4s ease-out both;
+}
+
+.vn-scanlines {
+  background: repeating-linear-gradient(
+    to bottom,
+    rgba(10, 16, 24, 0) 0px,
+    rgba(10, 16, 24, 0) 3px,
+    rgba(10, 16, 24, 0.13) 4px
+  );
+}
+
+[data-reduce-motion='true'] *,
+[data-reduce-motion='true'] *::before,
+[data-reduce-motion='true'] *::after {
+  animation-duration: 0.001ms !important;
+  animation-iteration-count: 1 !important;
+  transition-duration: 0.001ms !important;
 }
 
 @media (prefers-reduced-motion: reduce) {

@@ -22,5 +22,5 @@
     },
     "types": ["node", "vite/client"]
   },
-  "include": ["src", "tests"]
+  "include": ["src", "tests", "shared"]
 }

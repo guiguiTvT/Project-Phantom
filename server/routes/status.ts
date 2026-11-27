@@ -34,7 +34,7 @@ export const statusHandler: RequestHandler = (_req, res) => {
 };
 
 export const healthHandler: RequestHandler = (_req, res) => {
-  res.json({ ok: true, service: 'phantom-api', version: '0.2.0-phase1' });
+  res.json({ ok: true, service: 'phantom-api', version: '0.5.0-vn-phase4' });
 };
 
 export function createStatusRouter(): Router {

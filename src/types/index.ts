@@ -1,4 +1,4 @@
-import type { EndingConfig } from './ending';
+import type { EndingConditions, EndingConfig } from './ending';
 import type { EventDefinition } from './event';
 import type { PersonalityState } from './personality';
 
@@ -270,4 +270,4 @@ export interface DemoNotice {
   at: string;
 }
 
-export type { EndingConfig, EventDefinition };
+export type { EndingConfig, EndingConditions, EventDefinition };

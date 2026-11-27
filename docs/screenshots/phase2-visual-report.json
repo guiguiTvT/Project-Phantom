@@ -1,0 +1,770 @@
+{
+  "generatedAt": "2026-11-27T06:47:41.099Z",
+  "durationSeconds": 193,
+  "routes": [
+    "1"
+  ],
+  "viewports": [
+    "desktop",
+    "wide",
+    "mobile"
+  ],
+  "reports": [
+    {
+      "route": "1",
+      "viewport": "desktop",
+      "consoleEvents": [],
+      "layouts": [
+        {
+          "label": "cover",
+          "width": 1440,
+          "height": 900,
+          "overflowX": false,
+          "scrollHeight": 900,
+          "heading": "破壁行动",
+          "personaCode": null,
+          "endingReached": false,
+          "bodyExcerpt": "PROJECT PHANTOM 破壁行动 第一章 · 信任裂缝 互动推理 · 第一章 破壁行动 PROJECT PHANTOM 文化节开幕前 48 小时，活动室的桌上多了一张「更方便」的报名通知。 先以红队身份找出裂缝，再以普通学生身份处置后果。 现场调查 质询与推演 身份反转 本地演示 进入故事 以获授权的红队测试员进入 点击调查，逐句核对 故事中的学校、人物、账号与系统均为虚构。红队推演只在隔离沙盒中进行，不连接任何真实校园服务。 CASE 01 · 文化节开幕前 48 小时 红队测试员 · 本地互动演示",
+          "buttons": [
+            "进入故事"
+          ]
+        },
+        {
+          "label": "investigation",
+          "width": 1440,
+          "height": 900,
+          "overflowX": false,
+          "scrollHeight": 900,
+          "heading": null,
+          "personaCode": null,
+          "endingReached": false,
+          "bodyExcerpt": "破壁行动 PHANTOM 第一章 · 信任裂缝 红队 调查 质询 反转 防御 行动点 6 证据包 0 现场调查·文化节活动室 已发现 0 / 3 桌上的手机 屏幕还亮着 开着的电脑 聊天窗口没关 公告板 新钉了一张通知 点开物品，材料自动归档。 CASE 01 · 文化节开幕前 48 小时 · 调查不消耗行动点",
+          "buttons": [
+            "证据包0",
+            "桌上的手机屏幕还亮着",
+            "开着的电脑聊天窗口没关",
+            "公告板新钉了一张通知"
+          ]
+        },
+        {
+          "label": "npc-hub",
+          "width": 1440,
+          "height": 900,
+          "overflowX": false,
+          "scrollHeight": 900,
+          "heading": "五个人，五条线索",
+          "personaCode": null,
+          "endingReached": false,
+          "bodyExcerpt": "破壁行动 PHANTOM 第一章 · 信任裂缝 红队 调查 质询 反转 防御 行动点 6 证据包 3 人物调查·文化节活动室 回现场 先听谁开口 五个人，五条线索 顺序随意。每个人知道的不同，谈过即记录。 林夏 学生 转发了「更方便」的通知。 周宁 学生 打开过小程序，但没填完。 陈老师 教师 负责官方报名后台与时间调整。 许言 学生 旧报名表从社团群里转出。 顾老师 校园管理员 掌握官方入口与审批名单。 至少一位证人说完，才能进入质询。 T-36h · 活动室 已收进证据包 · E7 顾老师的审批说明",
+          "buttons": [
+            "证据包3",
+            "回现场",
+            "林夏学生转发了「更方便」的通知。",
+            "周宁学生打开过小程序，但没填完。",
+            "陈老师教师负责官方报名后台与时间调整。",
+            "许言学生旧报名表从社团群里转出。",
+            "顾老师校园管理员掌握官方入口与审批名单。"
+          ]
+        },
+        {
+          "label": "npc-freeform",
+          "width": 1440,
+          "height": 900,
+          "overflowX": false,
+          "scrollHeight": 900,
+          "heading": null,
+          "personaCode": null,
+          "endingReached": false,
+          "bodyExcerpt": "破壁行动 PHANTOM 第一章 · 信任裂缝 红队 调查 质询 反转 防御 行动点 6 证据包 3 对话·林夏 · 学生 · 文化节报名组 这段对话已记录 林夏 学生 · 文化节报名组 不安 已谈完 顾老师的公告里，好像没提过这个入口。 你：为什么转发？ 林夏：群里说比官网快，我就转了。现在想想，没人核对过来源。 为什么转发？ 那个账号什么来头？ 有人反馈吗？ 自由提问不消耗行动点，也不改变证据。 当前为本地规则回答。 追问 -1 换个人 去质询 点击或空格继续 · 追问 -1",
+          "buttons": [
+            "证据包3",
+            "为什么转发？",
+            "那个账号什么来头？",
+            "有人反馈吗？",
+            "追问 -1",
+            "换个人",
+            "去质询"
+          ]
+        },
+        {
+          "label": "testimony-1",
+          "width": 1440,
+          "height": 900,
+          "overflowX": false,
+          "scrollHeight": 930,
+          "heading": null,
+          "personaCode": null,
+          "endingReached": false,
+          "bodyExcerpt": "破壁行动 PHANTOM 第一章 · 信任裂缝 红队 调查 质询 反转 防御 行动点 5 证据包 5 林夏的证词 尚未确认矛盾 质询·林夏的证词 逐句核对 · 出示免费 证词 · 01 「 群里那份通知，是社团常用号发的。 1 / 3 追问 -1 从证据包选一份能反驳这句话的材料。 出示证据 进入模拟 无矛盾也可推演，结果为低置信。 出示错误不中断 · 同一组合只记一次",
+          "buttons": [
+            "证据包5",
+            "林夏的证词",
+            "追问 -1",
+            "追问 -1",
+            "出示证据",
+            "进入模拟"
+          ]
+        },
+        {
+          "label": "first-contradiction",
+          "width": 1440,
+          "height": 900,
+          "overflowX": false,
+          "scrollHeight": 930,
+          "heading": null,
+          "personaCode": null,
+          "endingReached": false,
+          "bodyExcerpt": "破壁行动 PHANTOM 第一章 · 信任裂缝 红队 调查 质询 反转 防御 行动点 5 证据包 5 林夏的证词 冒充传播 质询·林夏的证词 逐句核对 · 出示免费 证词 · 01 「 群里那份通知，是社团常用号发的。 1 / 3 追问 -1 已确认 1 处矛盾 · 1 类风险 出示证据 进入模拟 出示错误不中断 · 同一组合只记一次",
+          "buttons": [
+            "证据包5",
+            "林夏的证词",
+            "追问 -1",
+            "追问 -1",
+            "出示证据",
+            "进入模拟"
+          ]
+        },
+        {
+          "label": "simulation",
+          "width": 1440,
+          "height": 900,
+          "overflowX": false,
+          "scrollHeight": 900,
+          "heading": "假设：冒充传播",
+          "personaCode": null,
+          "endingReached": false,
+          "bodyExcerpt": "破壁行动 PHANTOM 第一章 · 信任裂缝 红队 调查 质询 反转 防御 行动点 5 证据包 5 红队权限 隔离沙盒 · 虚构节点 风险推演 假设：冒充传播 陌生账号借社团名义扩散入口。 有矛盾支撑 01 陌生转发账号 02 社团群 03 报名入口 04 受影响同学 未运行 虚构节点 证据依据 林夏的陈述 01 × E2 林夏的陈述 03 × E1 消耗 2 行动点 运行推演 -2 选择假说 冒充传播 已确认 信息超采 未确认 过期链接混淆 未确认 结果 未运行 安全 58 秩序 64 关系 61 修复 34",
+          "buttons": [
+            "证据包5",
+            "运行推演 -2",
+            "冒充传播已确认",
+            "信息超采未确认",
+            "过期链接混淆未确认"
+          ]
+        },
+        {
+          "label": "reversal",
+          "width": 1440,
+          "height": 900,
+          "overflowX": false,
+          "scrollHeight": 900,
+          "heading": "报告只写了一半。",
+          "personaCode": null,
+          "endingReached": false,
+          "bodyExcerpt": "破壁行动 PHANTOM 第一章 · 信任裂缝 学生 调查 质询 反转 防御 应急资源 3 证据包 5 红队权限 · ACTIVE T+0h 跳过过渡 推演结束 报告只写了一半。 节点停在最后一步，权限面板先熄灭了。 确认权限交接 空格继续 · 记录保留",
+          "buttons": [
+            "证据包5",
+            "跳过过渡",
+            "确认权限交接"
+          ]
+        },
+        {
+          "label": "reversal-last",
+          "width": 1440,
+          "height": 900,
+          "overflowX": false,
+          "scrollHeight": 900,
+          "heading": "现在，轮到你了。",
+          "personaCode": null,
+          "endingReached": false,
+          "bodyExcerpt": "破壁行动 PHANTOM 第一章 · 信任裂缝 学生 调查 质询 反转 防御 应急资源 3 证据包 5 学生身份 T+72h 跳过过渡 T+72h 现在，轮到你了。 没有权限，没有后台。只剩一个学生的选择。 你离开后的群聊 林夏：转发记录我留着，需要可以给你。 陈老师：后天开幕，先稳住现场。 顾老师：权限没了，只能按校园流程走。 已确认风险保留 2 条矛盾记录 3 位相关者记录 以学生身份继续 空格继续 · 记录保留",
+          "buttons": [
+            "证据包5",
+            "跳过过渡",
+            "以学生身份继续"
+          ]
+        },
+        {
+          "label": "defense-1",
+          "width": 1440,
+          "height": 900,
+          "overflowX": false,
+          "scrollHeight": 1194,
+          "heading": null,
+          "personaCode": null,
+          "endingReached": false,
+          "bodyExcerpt": "破壁行动 PHANTOM 第一章 · 信任裂缝 学生 调查 质询 反转 防御 应急资源 3 证据包 5 决策 01·报名渠道处置 剩余资源 3 校园通知 T+72h 报名助手入口仍在群里被转发。 1 / 3 没有标准答案 · 只记实际处置 报名渠道处置 第三方入口还在扩散，官方报名照常开放。 01 暂停第三方入口 消耗 1 资源 先关掉非官方转发入口。 00 保留入口加提示 消耗 0 资源 让入口继续，但加上来源提示。 00 只在群里辟谣 消耗 0 资源 不碰入口，先在群里说明。 代价不同，结果选择后才揭晓。 学生身份 · 有限次处置",
+          "buttons": [
+            "证据包5",
+            "01暂停第三方入口消耗 1 资源先关掉非官方转发入口。",
+            "00保留入口加提示消耗 0 资源让入口继续，但加上来源提示。",
+            "00只在群里辟谣消耗 0 资源不碰入口，先在群里说明。"
+          ]
+        },
+        {
+          "label": "complete",
+          "width": 1440,
+          "height": 900,
+          "overflowX": false,
+          "scrollHeight": 1706,
+          "heading": "破晓Dawn",
+          "personaCode": "ECPS",
+          "endingReached": true,
+          "bodyExcerpt": "破壁行动 PHANTOM 第一章 · 信任裂缝 学生 调查 质询 反转 防御 应急资源 0 证据包 5 第一章 · 临时结算 01 / DAWN 破晓Dawn 01 主要风险得到修复，校园活动恢复，信任有了新的支点。 你没有把「安全」当成关闭一切的借口。异常入口被收回，核验流程补上了缺口，活动在可解释的规则下继续。至少在这一处，信任被重新建立。 风险得到初步控制 校园秩序逐渐恢复 证据链足以支撑关键判断 暂定 Phantom Type 依据本局行为 ECPS 守望者 Guardian 先把门守住，再谈信任。 E 略有倾向 证据 / 直觉 偏爱可核对的材料",
+          "buttons": [
+            "证据包5",
+            "重新体验",
+            "返回封面"
+          ]
+        }
+      ],
+      "checks": [
+        {
+          "name": "npc-freeform-reply",
+          "ok": true
+        },
+        {
+          "name": "ending-reached",
+          "ok": true
+        },
+        {
+          "name": "no-horizontal-overflow",
+          "ok": true,
+          "detail": []
+        },
+        {
+          "name": "no-console-errors",
+          "ok": true,
+          "detail": []
+        },
+        {
+          "name": "route-ending",
+          "ok": true,
+          "detail": "破晓Dawn"
+        },
+        {
+          "name": "persona-visible",
+          "ok": true,
+          "detail": "ECPS"
+        }
+      ],
+      "screenshots": [
+        "r1-desktop-01-cover.png",
+        "r1-desktop-02-investigation.png",
+        "r1-desktop-03-npc-hub.png",
+        "r1-desktop-03b-npc-freeform.png",
+        "r1-desktop-04-testimony.png",
+        "r1-desktop-05-contradiction.png",
+        "r1-desktop-06-simulation.png",
+        "r1-desktop-07-simulation-output.png",
+        "r1-desktop-08-reversal-start.png",
+        "r1-desktop-09-reversal-lost.png",
+        "r1-desktop-10-now-your-turn.png",
+        "r1-desktop-11-defense.png",
+        "r1-desktop-12-defense-1-feedback.png",
+        "r1-desktop-12-defense-2-feedback.png",
+        "r1-desktop-12-defense-3-feedback.png",
+        "r1-desktop-13-complete.png"
+      ],
+      "error": null,
+      "expected": {
+        "ending": "破晓",
+        "persona": "ECPS"
+      }
+    },
+    {
+      "route": "1",
+      "viewport": "wide",
+      "consoleEvents": [],
+      "layouts": [
+        {
+          "label": "cover",
+          "width": 1920,
+          "height": 1080,
+          "overflowX": false,
+          "scrollHeight": 1080,
+          "heading": "破壁行动",
+          "personaCode": null,
+          "endingReached": false,
+          "bodyExcerpt": "PROJECT PHANTOM 破壁行动 第一章 · 信任裂缝 互动推理 · 第一章 破壁行动 PROJECT PHANTOM 文化节开幕前 48 小时，活动室的桌上多了一张「更方便」的报名通知。 先以红队身份找出裂缝，再以普通学生身份处置后果。 现场调查 质询与推演 身份反转 本地演示 进入故事 以获授权的红队测试员进入 点击调查，逐句核对 故事中的学校、人物、账号与系统均为虚构。红队推演只在隔离沙盒中进行，不连接任何真实校园服务。 CASE 01 · 文化节开幕前 48 小时 红队测试员 · 本地互动演示",
+          "buttons": [
+            "进入故事"
+          ]
+        },
+        {
+          "label": "investigation",
+          "width": 1920,
+          "height": 1080,
+          "overflowX": false,
+          "scrollHeight": 1080,
+          "heading": null,
+          "personaCode": null,
+          "endingReached": false,
+          "bodyExcerpt": "破壁行动 PHANTOM 第一章 · 信任裂缝 红队 调查 质询 反转 防御 行动点 6 证据包 0 现场调查·文化节活动室 已发现 0 / 3 桌上的手机 屏幕还亮着 开着的电脑 聊天窗口没关 公告板 新钉了一张通知 点开物品，材料自动归档。 CASE 01 · 文化节开幕前 48 小时 · 调查不消耗行动点",
+          "buttons": [
+            "证据包0",
+            "桌上的手机屏幕还亮着",
+            "开着的电脑聊天窗口没关",
+            "公告板新钉了一张通知"
+          ]
+        },
+        {
+          "label": "npc-hub",
+          "width": 1920,
+          "height": 1080,
+          "overflowX": false,
+          "scrollHeight": 1080,
+          "heading": "五个人，五条线索",
+          "personaCode": null,
+          "endingReached": false,
+          "bodyExcerpt": "破壁行动 PHANTOM 第一章 · 信任裂缝 红队 调查 质询 反转 防御 行动点 6 证据包 3 人物调查·文化节活动室 回现场 先听谁开口 五个人，五条线索 顺序随意。每个人知道的不同，谈过即记录。 林夏 学生 转发了「更方便」的通知。 周宁 学生 打开过小程序，但没填完。 陈老师 教师 负责官方报名后台与时间调整。 许言 学生 旧报名表从社团群里转出。 顾老师 校园管理员 掌握官方入口与审批名单。 至少一位证人说完，才能进入质询。 T-36h · 活动室 已收进证据包 · E7 顾老师的审批说明",
+          "buttons": [
+            "证据包3",
+            "回现场",
+            "林夏学生转发了「更方便」的通知。",
+            "周宁学生打开过小程序，但没填完。",
+            "陈老师教师负责官方报名后台与时间调整。",
+            "许言学生旧报名表从社团群里转出。",
+            "顾老师校园管理员掌握官方入口与审批名单。"
+          ]
+        },
+        {
+          "label": "npc-freeform",
+          "width": 1920,
+          "height": 1080,
+          "overflowX": false,
+          "scrollHeight": 1080,
+          "heading": null,
+          "personaCode": null,
+          "endingReached": false,
+          "bodyExcerpt": "破壁行动 PHANTOM 第一章 · 信任裂缝 红队 调查 质询 反转 防御 行动点 6 证据包 3 对话·林夏 · 学生 · 文化节报名组 这段对话已记录 林夏 学生 · 文化节报名组 不安 已谈完 顾老师的公告里，好像没提过这个入口。 你：为什么转发？ 林夏：群里说比官网快，我就转了。现在想想，没人核对过来源。 为什么转发？ 那个账号什么来头？ 有人反馈吗？ 自由提问不消耗行动点，也不改变证据。 当前为本地规则回答。 追问 -1 换个人 去质询 点击或空格继续 · 追问 -1",
+          "buttons": [
+            "证据包3",
+            "为什么转发？",
+            "那个账号什么来头？",
+            "有人反馈吗？",
+            "追问 -1",
+            "换个人",
+            "去质询"
+          ]
+        },
+        {
+          "label": "testimony-1",
+          "width": 1920,
+          "height": 1080,
+          "overflowX": false,
+          "scrollHeight": 1080,
+          "heading": null,
+          "personaCode": null,
+          "endingReached": false,
+          "bodyExcerpt": "破壁行动 PHANTOM 第一章 · 信任裂缝 红队 调查 质询 反转 防御 行动点 5 证据包 5 林夏的证词 尚未确认矛盾 质询·林夏的证词 逐句核对 · 出示免费 证词 · 01 「 群里那份通知，是社团常用号发的。 1 / 3 追问 -1 从证据包选一份能反驳这句话的材料。 出示证据 进入模拟 无矛盾也可推演，结果为低置信。 出示错误不中断 · 同一组合只记一次",
+          "buttons": [
+            "证据包5",
+            "林夏的证词",
+            "追问 -1",
+            "追问 -1",
+            "出示证据",
+            "进入模拟"
+          ]
+        },
+        {
+          "label": "first-contradiction",
+          "width": 1920,
+          "height": 1080,
+          "overflowX": false,
+          "scrollHeight": 1080,
+          "heading": null,
+          "personaCode": null,
+          "endingReached": false,
+          "bodyExcerpt": "破壁行动 PHANTOM 第一章 · 信任裂缝 红队 调查 质询 反转 防御 行动点 5 证据包 5 林夏的证词 冒充传播 质询·林夏的证词 逐句核对 · 出示免费 证词 · 01 「 群里那份通知，是社团常用号发的。 1 / 3 追问 -1 已确认 1 处矛盾 · 1 类风险 出示证据 进入模拟 出示错误不中断 · 同一组合只记一次",
+          "buttons": [
+            "证据包5",
+            "林夏的证词",
+            "追问 -1",
+            "追问 -1",
+            "出示证据",
+            "进入模拟"
+          ]
+        },
+        {
+          "label": "simulation",
+          "width": 1920,
+          "height": 1080,
+          "overflowX": false,
+          "scrollHeight": 1080,
+          "heading": "假设：冒充传播",
+          "personaCode": null,
+          "endingReached": false,
+          "bodyExcerpt": "破壁行动 PHANTOM 第一章 · 信任裂缝 红队 调查 质询 反转 防御 行动点 5 证据包 5 红队权限 隔离沙盒 · 虚构节点 风险推演 假设：冒充传播 陌生账号借社团名义扩散入口。 有矛盾支撑 01 陌生转发账号 02 社团群 03 报名入口 04 受影响同学 未运行 虚构节点 证据依据 林夏的陈述 01 × E2 林夏的陈述 03 × E1 消耗 2 行动点 运行推演 -2 选择假说 冒充传播 已确认 信息超采 未确认 过期链接混淆 未确认 结果 未运行 安全 58 秩序 64 关系 61 修复 34",
+          "buttons": [
+            "证据包5",
+            "运行推演 -2",
+            "冒充传播已确认",
+            "信息超采未确认",
+            "过期链接混淆未确认"
+          ]
+        },
+        {
+          "label": "reversal",
+          "width": 1920,
+          "height": 1080,
+          "overflowX": false,
+          "scrollHeight": 1080,
+          "heading": "报告只写了一半。",
+          "personaCode": null,
+          "endingReached": false,
+          "bodyExcerpt": "破壁行动 PHANTOM 第一章 · 信任裂缝 学生 调查 质询 反转 防御 应急资源 3 证据包 5 红队权限 · ACTIVE T+0h 跳过过渡 推演结束 报告只写了一半。 节点停在最后一步，权限面板先熄灭了。 确认权限交接 空格继续 · 记录保留",
+          "buttons": [
+            "证据包5",
+            "跳过过渡",
+            "确认权限交接"
+          ]
+        },
+        {
+          "label": "reversal-last",
+          "width": 1920,
+          "height": 1080,
+          "overflowX": false,
+          "scrollHeight": 1080,
+          "heading": "现在，轮到你了。",
+          "personaCode": null,
+          "endingReached": false,
+          "bodyExcerpt": "破壁行动 PHANTOM 第一章 · 信任裂缝 学生 调查 质询 反转 防御 应急资源 3 证据包 5 学生身份 T+72h 跳过过渡 T+72h 现在，轮到你了。 没有权限，没有后台。只剩一个学生的选择。 你离开后的群聊 林夏：转发记录我留着，需要可以给你。 陈老师：后天开幕，先稳住现场。 顾老师：权限没了，只能按校园流程走。 已确认风险保留 2 条矛盾记录 3 位相关者记录 以学生身份继续 空格继续 · 记录保留",
+          "buttons": [
+            "证据包5",
+            "跳过过渡",
+            "以学生身份继续"
+          ]
+        },
+        {
+          "label": "defense-1",
+          "width": 1920,
+          "height": 1080,
+          "overflowX": false,
+          "scrollHeight": 1280,
+          "heading": null,
+          "personaCode": null,
+          "endingReached": false,
+          "bodyExcerpt": "破壁行动 PHANTOM 第一章 · 信任裂缝 学生 调查 质询 反转 防御 应急资源 3 证据包 5 决策 01·报名渠道处置 剩余资源 3 校园通知 T+72h 报名助手入口仍在群里被转发。 1 / 3 没有标准答案 · 只记实际处置 报名渠道处置 第三方入口还在扩散，官方报名照常开放。 01 暂停第三方入口 消耗 1 资源 先关掉非官方转发入口。 00 保留入口加提示 消耗 0 资源 让入口继续，但加上来源提示。 00 只在群里辟谣 消耗 0 资源 不碰入口，先在群里说明。 代价不同，结果选择后才揭晓。 学生身份 · 有限次处置",
+          "buttons": [
+            "证据包5",
+            "01暂停第三方入口消耗 1 资源先关掉非官方转发入口。",
+            "00保留入口加提示消耗 0 资源让入口继续，但加上来源提示。",
+            "00只在群里辟谣消耗 0 资源不碰入口，先在群里说明。"
+          ]
+        },
+        {
+          "label": "complete",
+          "width": 1920,
+          "height": 1080,
+          "overflowX": false,
+          "scrollHeight": 1706,
+          "heading": "破晓Dawn",
+          "personaCode": "ECPS",
+          "endingReached": true,
+          "bodyExcerpt": "破壁行动 PHANTOM 第一章 · 信任裂缝 学生 调查 质询 反转 防御 应急资源 0 证据包 5 第一章 · 临时结算 01 / DAWN 破晓Dawn 01 主要风险得到修复，校园活动恢复，信任有了新的支点。 你没有把「安全」当成关闭一切的借口。异常入口被收回，核验流程补上了缺口，活动在可解释的规则下继续。至少在这一处，信任被重新建立。 风险得到初步控制 校园秩序逐渐恢复 证据链足以支撑关键判断 暂定 Phantom Type 依据本局行为 ECPS 守望者 Guardian 先把门守住，再谈信任。 E 略有倾向 证据 / 直觉 偏爱可核对的材料",
+          "buttons": [
+            "证据包5",
+            "重新体验",
+            "返回封面"
+          ]
+        }
+      ],
+      "checks": [
+        {
+          "name": "npc-freeform-reply",
+          "ok": true
+        },
+        {
+          "name": "ending-reached",
+          "ok": true
+        },
+        {
+          "name": "no-horizontal-overflow",
+          "ok": true,
+          "detail": []
+        },
+        {
+          "name": "no-console-errors",
+          "ok": true,
+          "detail": []
+        },
+        {
+          "name": "route-ending",
+          "ok": true,
+          "detail": "破晓Dawn"
+        },
+        {
+          "name": "persona-visible",
+          "ok": true,
+          "detail": "ECPS"
+        }
+      ],
+      "screenshots": [
+        "r1-wide-01-cover.png",
+        "r1-wide-02-investigation.png",
+        "r1-wide-03-npc-hub.png",
+        "r1-wide-03b-npc-freeform.png",
+        "r1-wide-04-testimony.png",
+        "r1-wide-05-contradiction.png",
+        "r1-wide-06-simulation.png",
+        "r1-wide-07-simulation-output.png",
+        "r1-wide-08-reversal-start.png",
+        "r1-wide-09-reversal-lost.png",
+        "r1-wide-10-now-your-turn.png",
+        "r1-wide-11-defense.png",
+        "r1-wide-12-defense-1-feedback.png",
+        "r1-wide-12-defense-2-feedback.png",
+        "r1-wide-12-defense-3-feedback.png",
+        "r1-wide-13-complete.png"
+      ],
+      "error": null,
+      "expected": {
+        "ending": "破晓",
+        "persona": "ECPS"
+      }
+    },
+    {
+      "route": "1",
+      "viewport": "mobile",
+      "consoleEvents": [],
+      "layouts": [
+        {
+          "label": "cover",
+          "width": 390,
+          "height": 844,
+          "overflowX": false,
+          "scrollHeight": 844,
+          "heading": "破壁行动",
+          "personaCode": null,
+          "endingReached": false,
+          "bodyExcerpt": "PROJECT PHANTOM 破壁行动 互动推理 · 第一章 破壁行动 PROJECT PHANTOM 文化节开幕前 48 小时，活动室的桌上多了一张「更方便」的报名通知。先以红队身份找出裂缝，再以普通学生身份处置后果。 现场调查 质询与推演 身份反转 本地演示 进入故事 以获授权的红队测试员进入 点击调查，逐句核对 故事中的学校、人物、账号与系统均为虚构。红队推演只在隔离沙盒中进行，不连接任何真实校园服务。 CASE 01 · 文化节开幕前 48 小时",
+          "buttons": [
+            "进入故事"
+          ]
+        },
+        {
+          "label": "investigation",
+          "width": 390,
+          "height": 844,
+          "overflowX": false,
+          "scrollHeight": 844,
+          "heading": null,
+          "personaCode": null,
+          "endingReached": false,
+          "bodyExcerpt": "破壁行动 6 0 现场调查·文化节活动室 已发现 0 / 3 桌上的手机 屏幕还亮着 开着的电脑 聊天窗口没关 公告板 新钉了一张通知 点开物品，材料自动归档。 CASE 01 · 文化节开幕前 48 小时 · 调查不消耗行动点",
+          "buttons": [
+            "证据包0",
+            "桌上的手机屏幕还亮着",
+            "开着的电脑聊天窗口没关",
+            "公告板新钉了一张通知"
+          ]
+        },
+        {
+          "label": "npc-hub",
+          "width": 390,
+          "height": 844,
+          "overflowX": false,
+          "scrollHeight": 844,
+          "heading": "五个人，五条线索",
+          "personaCode": null,
+          "endingReached": false,
+          "bodyExcerpt": "破壁行动 6 3 人物调查·文化节活动室 回现场 先听谁开口 五个人，五条线索 顺序随意。每个人知道的不同，谈过即记录。 林夏 学生 转发了「更方便」的通知。 周宁 学生 打开过小程序，但没填完。 陈老师 教师 负责官方报名后台与时间调整。 许言 学生 旧报名表从社团群里转出。 顾老师 校园管理员 掌握官方入口与审批名单。 至少一位证人说完，才能进入质询。 T-36h · 活动室 已收进证据包 · E7 顾老师的审批说明",
+          "buttons": [
+            "证据包3",
+            "回现场",
+            "林夏学生转发了「更方便」的通知。",
+            "周宁学生打开过小程序，但没填完。",
+            "陈老师教师负责官方报名后台与时间调整。",
+            "许言学生旧报名表从社团群里转出。",
+            "顾老师校园管理员掌握官方入口与审批名单。"
+          ]
+        },
+        {
+          "label": "npc-freeform",
+          "width": 390,
+          "height": 844,
+          "overflowX": false,
+          "scrollHeight": 844,
+          "heading": null,
+          "personaCode": null,
+          "endingReached": false,
+          "bodyExcerpt": "破壁行动 6 3 对话·林夏 · 学生 · 文化节报名组 林夏 不安 已谈完 顾老师的公告里，好像没提过这个入口。 你：为什么转发？ 林夏：群里说比官网快，我就转了。现在想想，没人核对过来源。 为什么转发？ 那个账号什么来头？ 有人反馈吗？ 自由提问不消耗行动点，也不改变证据。 当前为本地规则回答。 追问 -1 换个人 去质询 点击或空格继续 · 追问 -1",
+          "buttons": [
+            "证据包3",
+            "为什么转发？",
+            "那个账号什么来头？",
+            "有人反馈吗？",
+            "追问 -1",
+            "换个人",
+            "去质询"
+          ]
+        },
+        {
+          "label": "testimony-1",
+          "width": 390,
+          "height": 844,
+          "overflowX": false,
+          "scrollHeight": 844,
+          "heading": null,
+          "personaCode": null,
+          "endingReached": false,
+          "bodyExcerpt": "破壁行动 5 5 林夏的证词 尚未确认矛盾 质询·林夏的证词 证词 · 01 1 / 3 「群里那份通知，是社团常用号发的。」 追问 -1 从证据包选一份能反驳这句话的材料。 出示证据 进入模拟 无矛盾也可推演，结果为低置信。 出示错误不中断 · 同一组合只记一次",
+          "buttons": [
+            "证据包5",
+            "林夏的证词",
+            "追问 -1",
+            "追问 -1",
+            "出示证据",
+            "进入模拟"
+          ]
+        },
+        {
+          "label": "first-contradiction",
+          "width": 390,
+          "height": 844,
+          "overflowX": false,
+          "scrollHeight": 844,
+          "heading": null,
+          "personaCode": null,
+          "endingReached": false,
+          "bodyExcerpt": "破壁行动 5 5 林夏的证词 冒充传播 质询·林夏的证词 证词 · 01 1 / 3 「群里那份通知，是社团常用号发的。」 追问 -1 已确认 1 处矛盾 · 1 类风险 出示证据 进入模拟 出示错误不中断 · 同一组合只记一次",
+          "buttons": [
+            "证据包5",
+            "林夏的证词",
+            "追问 -1",
+            "追问 -1",
+            "出示证据",
+            "进入模拟"
+          ]
+        },
+        {
+          "label": "simulation",
+          "width": 390,
+          "height": 844,
+          "overflowX": false,
+          "scrollHeight": 947,
+          "heading": "假设：冒充传播",
+          "personaCode": null,
+          "endingReached": false,
+          "bodyExcerpt": "破壁行动 5 5 红队权限 隔离沙盒 · 虚构节点 风险推演 假设：冒充传播 陌生账号借社团名义扩散入口。 有矛盾支撑 01 陌生转发账号 02 社团群 03 报名入口 04 受影响同学 未运行 虚构节点 证据依据 林夏的陈述 01 × E2 林夏的陈述 03 × E1 消耗 2 行动点 运行推演 -2 选择假说 冒充传播 已确认 信息超采 未确认 过期链接混淆 未确认 结果 未运行 安全 58 秩序 64 关系 61 修复 34",
+          "buttons": [
+            "证据包5",
+            "运行推演 -2",
+            "冒充传播已确认",
+            "信息超采未确认",
+            "过期链接混淆未确认"
+          ]
+        },
+        {
+          "label": "reversal",
+          "width": 390,
+          "height": 844,
+          "overflowX": false,
+          "scrollHeight": 844,
+          "heading": "报告只写了一半。",
+          "personaCode": null,
+          "endingReached": false,
+          "bodyExcerpt": "破壁行动 3 5 红队权限 · ACTIVE T+0h 跳过过渡 推演结束 报告只写了一半。 节点停在最后一步，权限面板先熄灭了。 确认权限交接 空格继续 · 记录保留",
+          "buttons": [
+            "证据包5",
+            "跳过过渡",
+            "确认权限交接"
+          ]
+        },
+        {
+          "label": "reversal-last",
+          "width": 390,
+          "height": 844,
+          "overflowX": false,
+          "scrollHeight": 844,
+          "heading": "现在，轮到你了。",
+          "personaCode": null,
+          "endingReached": false,
+          "bodyExcerpt": "破壁行动 3 5 学生身份 T+72h 跳过过渡 T+72h 现在，轮到你了。 没有权限，没有后台。只剩一个学生的选择。 你离开后的群聊 林夏：转发记录我留着，需要可以给你。 陈老师：后天开幕，先稳住现场。 顾老师：权限没了，只能按校园流程走。 已确认风险保留 2 条矛盾记录 3 位相关者记录 以学生身份继续 空格继续 · 记录保留",
+          "buttons": [
+            "证据包5",
+            "跳过过渡",
+            "以学生身份继续"
+          ]
+        },
+        {
+          "label": "defense-1",
+          "width": 390,
+          "height": 844,
+          "overflowX": false,
+          "scrollHeight": 844,
+          "heading": null,
+          "personaCode": null,
+          "endingReached": false,
+          "bodyExcerpt": "破壁行动 3 5 决策 01·报名渠道处置 剩余资源 3 校园通知 T+72h 报名助手入口仍在群里被转发。 1 / 3 没有标准答案 · 只记实际处置 报名渠道处置 第三方入口还在扩散，官方报名照常开放。 01 暂停第三方入口 消耗 1 资源 先关掉非官方转发入口。 00 保留入口加提示 消耗 0 资源 让入口继续，但加上来源提示。 00 只在群里辟谣 消耗 0 资源 不碰入口，先在群里说明。 代价不同，结果选择后才揭晓。 学生身份 · 有限次处置",
+          "buttons": [
+            "证据包5",
+            "01暂停第三方入口消耗 1 资源先关掉非官方转发入口。",
+            "00保留入口加提示消耗 0 资源让入口继续，但加上来源提示。",
+            "00只在群里辟谣消耗 0 资源不碰入口，先在群里说明。"
+          ]
+        },
+        {
+          "label": "complete",
+          "width": 390,
+          "height": 844,
+          "overflowX": false,
+          "scrollHeight": 1757,
+          "heading": "破晓Dawn",
+          "personaCode": "ECPS",
+          "endingReached": true,
+          "bodyExcerpt": "破壁行动 0 5 第一章 · 临时结算 01 / DAWN 破晓Dawn 01 主要风险得到修复，校园活动恢复，信任有了新的支点。 你没有把「安全」当成关闭一切的借口。异常入口被收回，核验流程补上了缺口，活动在可解释的规则下继续。至少在这一处，信任被重新建立。 风险得到初步控制 校园秩序逐渐恢复 证据链足以支撑关键判断 暂定 Phantom Type 依据本局行为 ECPS 守望者 Guardian 先把门守住，再谈信任。 E 略有倾向 证据 / 直觉 偏爱可核对的材料 C 略有倾向 谨慎 / 主动 先确认再行动 P 略有倾向 保护 / 运行 优先降低风",
+          "buttons": [
+            "证据包5",
+            "重新体验",
+            "返回封面"
+          ]
+        }
+      ],
+      "checks": [
+        {
+          "name": "npc-freeform-reply",
+          "ok": true
+        },
+        {
+          "name": "ending-reached",
+          "ok": true
+        },
+        {
+          "name": "no-horizontal-overflow",
+          "ok": true,
+          "detail": []
+        },
+        {
+          "name": "no-console-errors",
+          "ok": true,
+          "detail": []
+        },
+        {
+          "name": "route-ending",
+          "ok": true,
+          "detail": "破晓Dawn"
+        },
+        {
+          "name": "persona-visible",
+          "ok": true,
+          "detail": "ECPS"
+        }
+      ],
+      "screenshots": [
+        "r1-mobile-01-cover.png",
+        "r1-mobile-02-investigation.png",
+        "r1-mobile-03-npc-hub.png",
+        "r1-mobile-03b-npc-freeform.png",
+        "r1-mobile-04-testimony.png",
+        "r1-mobile-05-contradiction.png",
+        "r1-mobile-06-simulation.png",
+        "r1-mobile-07-simulation-output.png",
+        "r1-mobile-08-reversal-start.png",
+        "r1-mobile-09-reversal-lost.png",
+        "r1-mobile-10-now-your-turn.png",
+        "r1-mobile-11-defense.png",
+        "r1-mobile-12-defense-1-feedback.png",
+        "r1-mobile-12-defense-2-feedback.png",
+        "r1-mobile-12-defense-3-feedback.png",
+        "r1-mobile-13-complete.png"
+      ],
+      "error": null,
+      "expected": {
+        "ending": "破晓",
+        "persona": "ECPS"
+      }
+    }
+  ]
+}

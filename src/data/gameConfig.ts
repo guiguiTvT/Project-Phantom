@@ -17,7 +17,7 @@ export const GAME_META = {
   englishTitle: 'PROJECT PHANTOM // BREACH PROTOCOL',
   chapter: '第一章 · 信任裂缝',
   edition: 'HACK4GOOD 2026 · 技术向善',
-  version: '0.2.0-phase1',
+  version: '0.5.0-vn-phase4',
   fictiveNotice: '本作中的校园、人物、账号与权限均为虚构，不连接任何真实系统。',
 };
 

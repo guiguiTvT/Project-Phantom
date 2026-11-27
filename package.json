@@ -1,7 +1,7 @@
 {
   "name": "project-phantom",
   "private": true,
-  "version": "0.2.0-phase1",
+  "version": "0.5.0-vn-phase4",
   "type": "module",
   "description": "Project Phantom: 破壁行动 — 沉浸式校园社交工程攻防模拟",
   "scripts": {
@@ -37,6 +37,7 @@
     "autoprefixer": "^10.4.20",
     "concurrently": "^9.1.2",
     "postcss": "^8.5.1",
+    "sharp": "^0.35.5",
     "tailwindcss": "^3.4.17",
     "tsx": "^4.19.2",
     "typescript": "~5.7.3",
