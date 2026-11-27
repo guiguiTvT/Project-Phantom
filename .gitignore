@@ -9,6 +9,8 @@ dist-ssr
 Thumbs.db
 coverage
 playwright-report
+.playwright-cli/
+output/playwright/
 test-results
 vibe_images/
 .edge-profile/

@@ -11,7 +11,7 @@ interface VnSettings {
 export const useVnSettings = create<VnSettings>()(
   persist(
     (set) => ({
-      muted: false,
+      muted: true,
       reduceMotion: false,
       setMuted: (muted) => set({ muted }),
       setReduceMotion: (reduceMotion) => set({ reduceMotion }),

@@ -1,5 +1,5 @@
-import VnApp from '@/game/VnApp';
+import CampaignApp from '@/game/campaign/CampaignApp';
 
 export default function App() {
-  return <VnApp />;
+  return <CampaignApp />;
 }
